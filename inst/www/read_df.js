@@ -28,6 +28,7 @@ $(document).ready(function(){
   function printsummary(mydata){
 	  //alert("inside printsummary....");
     //perform the request
+	alert("1");
     var req = ocpu.call("printsummary", {
       "df_full" : mydata,
 	"dvname" : dvname,
