@@ -12,7 +12,7 @@ printsummary <- function(df_full, dvname, preddv){
   
   ############### Data Cleaning function ############
   
-  data_prep_code_fun <- function(df_full, dvname) {
+  data_prep_code_fun <- function(df_full, dv) {
   data<-df_full
 
 #consider target variable name given as input in HybridFS function as DV'
